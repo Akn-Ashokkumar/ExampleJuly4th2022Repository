@@ -1,0 +1,354 @@
+<html>
+<head>
+<title>TestNG:  Testcase</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Testcase</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>55/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 16 17:17:49 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>296 seconds (296722 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment3.DeleteCustomer()'><b>DeleteCustomer</b><br>Test class: Com.sgtesting.launchprocess.Assignment3</td>
+<td></td>
+<td>14</td>
+<td>Com.sgtesting.launchprocess.Assignment3@1de5f259</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment7.ProjectCreate()'><b>ProjectCreate</b><br>Test class: Com.sgtesting.launchprocess.Assignment7<br>Parameters: Ashok, Study hard</td>
+<td></td>
+<td>10</td>
+<td>Com.sgtesting.launchprocess.Assignment7@957e06</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment3.launchbroswer()'><b>launchbroswer</b><br>Test class: Com.sgtesting.launchprocess.Assignment3</td>
+<td></td>
+<td>1</td>
+<td>Com.sgtesting.launchprocess.Assignment3@1de5f259</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment7.NewTask()'><b>NewTask</b><br>Test class: Com.sgtesting.launchprocess.Assignment7<br>Parameters: Ashok, monika, kiran, sagar, arun</td>
+<td></td>
+<td>6</td>
+<td>Com.sgtesting.launchprocess.Assignment7@957e06</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment2.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: Com.sgtesting.launchprocess.Assignment2</td>
+<td></td>
+<td>3</td>
+<td>Com.sgtesting.launchprocess.Assignment2@209da20d</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment6.CloseApplication()'><b>CloseApplication</b><br>Test class: Com.sgtesting.launchprocess.Assignment6</td>
+<td></td>
+<td>0</td>
+<td>Com.sgtesting.launchprocess.Assignment6@31fa1761</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment7.CustomerCreate()'><b>CustomerCreate</b><br>Test class: Com.sgtesting.launchprocess.Assignment7<br>Parameters: sagar, Determination, passion necessary</td>
+<td></td>
+<td>10</td>
+<td>Com.sgtesting.launchprocess.Assignment7@957e06</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment7.CloseApplication()'><b>CloseApplication</b><br>Test class: Com.sgtesting.launchprocess.Assignment7</td>
+<td></td>
+<td>0</td>
+<td>Com.sgtesting.launchprocess.Assignment7@957e06</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment3.login()'><b>login</b><br>Test class: Com.sgtesting.launchprocess.Assignment3<br>Parameters: admin, manager</td>
+<td></td>
+<td>0</td>
+<td>Com.sgtesting.launchprocess.Assignment3@1de5f259</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.UserScenario.logout()'><b>logout</b><br>Test class: Com.sgtesting.launchprocess.UserScenario</td>
+<td></td>
+<td>1</td>
+<td>Com.sgtesting.launchprocess.UserScenario@32502377</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment3.CloseApplication()'><b>CloseApplication</b><br>Test class: Com.sgtesting.launchprocess.Assignment3</td>
+<td></td>
+<td>0</td>
+<td>Com.sgtesting.launchprocess.Assignment3@1de5f259</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment2.navigate()'><b>navigate</b><br>Test class: Com.sgtesting.launchprocess.Assignment2</td>
+<td></td>
+<td>6</td>
+<td>Com.sgtesting.launchprocess.Assignment2@209da20d</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment2.launchbroswer()'><b>launchbroswer</b><br>Test class: Com.sgtesting.launchprocess.Assignment2</td>
+<td></td>
+<td>2</td>
+<td>Com.sgtesting.launchprocess.Assignment2@209da20d</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment7.Logout()'><b>Logout</b><br>Test class: Com.sgtesting.launchprocess.Assignment7</td>
+<td></td>
+<td>2</td>
+<td>Com.sgtesting.launchprocess.Assignment7@957e06</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment6.DeleteCustomer()'><b>DeleteCustomer</b><br>Test class: Com.sgtesting.launchprocess.Assignment6</td>
+<td></td>
+<td>14</td>
+<td>Com.sgtesting.launchprocess.Assignment6@31fa1761</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment7.DeleteCustomer()'><b>DeleteCustomer</b><br>Test class: Com.sgtesting.launchprocess.Assignment7</td>
+<td></td>
+<td>14</td>
+<td>Com.sgtesting.launchprocess.Assignment7@957e06</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.UserScenario.launchbroswer()'><b>launchbroswer</b><br>Test class: Com.sgtesting.launchprocess.UserScenario</td>
+<td></td>
+<td>1</td>
+<td>Com.sgtesting.launchprocess.UserScenario@32502377</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment4.CloseApplication()'><b>CloseApplication</b><br>Test class: Com.sgtesting.launchprocess.Assignment4</td>
+<td></td>
+<td>0</td>
+<td>Com.sgtesting.launchprocess.Assignment4@729d991e</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment6.Logout()'><b>Logout</b><br>Test class: Com.sgtesting.launchprocess.Assignment6</td>
+<td></td>
+<td>2</td>
+<td>Com.sgtesting.launchprocess.Assignment6@31fa1761</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment4.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: Com.sgtesting.launchprocess.Assignment4</td>
+<td></td>
+<td>5</td>
+<td>Com.sgtesting.launchprocess.Assignment4@729d991e</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment2.CreateUsername()'><b>CreateUsername</b><br>Test class: Com.sgtesting.launchprocess.Assignment2</td>
+<td></td>
+<td>16</td>
+<td>Com.sgtesting.launchprocess.Assignment2@209da20d</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment3.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: Com.sgtesting.launchprocess.Assignment3</td>
+<td></td>
+<td>3</td>
+<td>Com.sgtesting.launchprocess.Assignment3@1de5f259</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment2.login()'><b>login</b><br>Test class: Com.sgtesting.launchprocess.Assignment2<br>Parameters: admin, manager</td>
+<td></td>
+<td>0</td>
+<td>Com.sgtesting.launchprocess.Assignment2@209da20d</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment4.CustomerCreate()'><b>CustomerCreate</b><br>Test class: Com.sgtesting.launchprocess.Assignment4<br>Parameters: sagar, Determination, passion necessary</td>
+<td></td>
+<td>10</td>
+<td>Com.sgtesting.launchprocess.Assignment4@729d991e</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment4.navigate()'><b>navigate</b><br>Test class: Com.sgtesting.launchprocess.Assignment4</td>
+<td></td>
+<td>6</td>
+<td>Com.sgtesting.launchprocess.Assignment4@729d991e</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment2.DeleteUser()'><b>DeleteUser</b><br>Test class: Com.sgtesting.launchprocess.Assignment2</td>
+<td></td>
+<td>6</td>
+<td>Com.sgtesting.launchprocess.Assignment2@209da20d</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment7.DeleteProject()'><b>DeleteProject</b><br>Test class: Com.sgtesting.launchprocess.Assignment7</td>
+<td></td>
+<td>6</td>
+<td>Com.sgtesting.launchprocess.Assignment7@957e06</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment4.launchbroswer()'><b>launchbroswer</b><br>Test class: Com.sgtesting.launchprocess.Assignment4</td>
+<td></td>
+<td>1</td>
+<td>Com.sgtesting.launchprocess.Assignment4@729d991e</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment6.launchbroswer()'><b>launchbroswer</b><br>Test class: Com.sgtesting.launchprocess.Assignment6</td>
+<td></td>
+<td>1</td>
+<td>Com.sgtesting.launchprocess.Assignment6@31fa1761</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment7.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: Com.sgtesting.launchprocess.Assignment7</td>
+<td></td>
+<td>4</td>
+<td>Com.sgtesting.launchprocess.Assignment7@957e06</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment7.launchbroswer()'><b>launchbroswer</b><br>Test class: Com.sgtesting.launchprocess.Assignment7</td>
+<td></td>
+<td>1</td>
+<td>Com.sgtesting.launchprocess.Assignment7@957e06</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.UserScenario.closeApplication()'><b>closeApplication</b><br>Test class: Com.sgtesting.launchprocess.UserScenario</td>
+<td></td>
+<td>0</td>
+<td>Com.sgtesting.launchprocess.UserScenario@32502377</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment6.CustomerCreate()'><b>CustomerCreate</b><br>Test class: Com.sgtesting.launchprocess.Assignment6<br>Parameters: sagar, Determination, passion necessary</td>
+<td></td>
+<td>10</td>
+<td>Com.sgtesting.launchprocess.Assignment6@31fa1761</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment6.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: Com.sgtesting.launchprocess.Assignment6</td>
+<td></td>
+<td>5</td>
+<td>Com.sgtesting.launchprocess.Assignment6@31fa1761</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment4.DeleteCustomer()'><b>DeleteCustomer</b><br>Test class: Com.sgtesting.launchprocess.Assignment4</td>
+<td></td>
+<td>16</td>
+<td>Com.sgtesting.launchprocess.Assignment4@729d991e</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment4.ModifyTask6()'><b>ModifyTask6</b><br>Test class: Com.sgtesting.launchprocess.Assignment4<br>Parameters: extra Determination, passion necessary</td>
+<td></td>
+<td>6</td>
+<td>Com.sgtesting.launchprocess.Assignment4@729d991e</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment3.Logout()'><b>Logout</b><br>Test class: Com.sgtesting.launchprocess.Assignment3</td>
+<td></td>
+<td>2</td>
+<td>Com.sgtesting.launchprocess.Assignment3@1de5f259</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment6.ProjectCreate()'><b>ProjectCreate</b><br>Test class: Com.sgtesting.launchprocess.Assignment6<br>Parameters: Ashok, Study hard</td>
+<td></td>
+<td>10</td>
+<td>Com.sgtesting.launchprocess.Assignment6@31fa1761</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment4.Logout()'><b>Logout</b><br>Test class: Com.sgtesting.launchprocess.Assignment4</td>
+<td></td>
+<td>2</td>
+<td>Com.sgtesting.launchprocess.Assignment4@729d991e</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment3.navigate()'><b>navigate</b><br>Test class: Com.sgtesting.launchprocess.Assignment3</td>
+<td></td>
+<td>6</td>
+<td>Com.sgtesting.launchprocess.Assignment3@1de5f259</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.UserScenario.DeleteUser()'><b>DeleteUser</b><br>Test class: Com.sgtesting.launchprocess.UserScenario</td>
+<td></td>
+<td>0</td>
+<td>Com.sgtesting.launchprocess.UserScenario@32502377</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment2.logout()'><b>logout</b><br>Test class: Com.sgtesting.launchprocess.Assignment2</td>
+<td></td>
+<td>2</td>
+<td>Com.sgtesting.launchprocess.Assignment2@209da20d</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment7.navigate()'><b>navigate</b><br>Test class: Com.sgtesting.launchprocess.Assignment7</td>
+<td></td>
+<td>7</td>
+<td>Com.sgtesting.launchprocess.Assignment7@957e06</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment7.ModifiyProject()'><b>ModifiyProject</b><br>Test class: Com.sgtesting.launchprocess.Assignment7<br>Parameters: Superb</td>
+<td></td>
+<td>8</td>
+<td>Com.sgtesting.launchprocess.Assignment7@957e06</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.UserScenario.navigate()'><b>navigate</b><br>Test class: Com.sgtesting.launchprocess.UserScenario</td>
+<td></td>
+<td>6</td>
+<td>Com.sgtesting.launchprocess.UserScenario@32502377</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment2.ModifiyUsername()'><b>ModifiyUsername</b><br>Test class: Com.sgtesting.launchprocess.Assignment2<br>Parameters: Asho, Kumar, akn.ashu96@gmail.com, Sagar, Welcome1, Welcome1</td>
+<td></td>
+<td>19</td>
+<td>Com.sgtesting.launchprocess.Assignment2@209da20d</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment6.DeleteProject()'><b>DeleteProject</b><br>Test class: Com.sgtesting.launchprocess.Assignment6</td>
+<td></td>
+<td>6</td>
+<td>Com.sgtesting.launchprocess.Assignment6@31fa1761</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment7.login()'><b>login</b><br>Test class: Com.sgtesting.launchprocess.Assignment7<br>Parameters: admin, manager</td>
+<td></td>
+<td>0</td>
+<td>Com.sgtesting.launchprocess.Assignment7@957e06</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment2.closeApplication()'><b>closeApplication</b><br>Test class: Com.sgtesting.launchprocess.Assignment2</td>
+<td></td>
+<td>0</td>
+<td>Com.sgtesting.launchprocess.Assignment2@209da20d</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment6.navigate()'><b>navigate</b><br>Test class: Com.sgtesting.launchprocess.Assignment6</td>
+<td></td>
+<td>6</td>
+<td>Com.sgtesting.launchprocess.Assignment6@31fa1761</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.UserScenario.CreateUsername()'><b>CreateUsername</b><br>Test class: Com.sgtesting.launchprocess.UserScenario</td>
+<td></td>
+<td>2</td>
+<td>Com.sgtesting.launchprocess.UserScenario@32502377</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment3.CustomerCreate()'><b>CustomerCreate</b><br>Test class: Com.sgtesting.launchprocess.Assignment3</td>
+<td></td>
+<td>11</td>
+<td>Com.sgtesting.launchprocess.Assignment3@1de5f259</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.UserScenario.login()'><b>login</b><br>Test class: Com.sgtesting.launchprocess.UserScenario<br>Parameters: admin, manager</td>
+<td></td>
+<td>0</td>
+<td>Com.sgtesting.launchprocess.UserScenario@32502377</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment4.login()'><b>login</b><br>Test class: Com.sgtesting.launchprocess.Assignment4<br>Parameters: admin, manager</td>
+<td></td>
+<td>0</td>
+<td>Com.sgtesting.launchprocess.Assignment4@729d991e</td></tr>
+<tr>
+<td title='Com.sgtesting.launchprocess.Assignment6.login()'><b>login</b><br>Test class: Com.sgtesting.launchprocess.Assignment6<br>Parameters: admin, manager</td>
+<td></td>
+<td>0</td>
+<td>Com.sgtesting.launchprocess.Assignment6@31fa1761</td></tr>
+</table><p>
+</body>
+</html>
